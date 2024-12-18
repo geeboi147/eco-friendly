@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // or "react"
+    "allowJs": true,    // Allow JavaScript files (.js or .jsx)
+    "checkJs": true,    // Check JavaScript files for type errors
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
