@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx", // or "react"
-    "allowJs": true,    // Allow JavaScript files (.js or .jsx)
-    "checkJs": true,    // Check JavaScript files for type errors
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": true,
     "moduleResolution": "node",
     "module": "esnext",
     "target": "esnext",
@@ -11,7 +11,8 @@
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
     "emitDeclarationOnly": true,
-    "declaration": true
+    "declaration": true,
+    "outDir": "dist" // Specify output directory for emitted files
   },
   "include": ["src/**/*"]
 }
