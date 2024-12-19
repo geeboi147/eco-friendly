@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "moduleResolution": "node",
     "target": "esnext",
     "module": "esnext",
-    "esModuleInterop": true,
+    "jsx": "react-jsx",
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "allowJs": true,
-    "checkJs": true,
-    "declaration": true
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   },
-  "include": ["src/**/*"]
+  "include": ["src"]
 }
